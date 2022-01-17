@@ -59,9 +59,10 @@ In the `server / server.js` file set the value of the constants:
 Run the service using the command
 
 ```
-node server.js
+node server.js &
+disown
 ```
 
-
+The first command runs the service. The second allows the service to stay running after leaving the Terminal.
 </div>
  
