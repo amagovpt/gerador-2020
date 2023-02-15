@@ -23,7 +23,7 @@ No ficheiro `servidor/server.js` configurar o valor das constantes:
 - `port`: porto do serviço (deve coincidir com o indicado em `fetchServer` no gerador)
 - `origin`: endereço (incluindo porto se for necessário) da máquina onde é disponibilizado o Gerador (de onde vêm os pedidos a este serviço)
 
-Executar o serviço que permite ativar o botão "Carregar URL" 
+## Executar o serviço que permite ativar o botão "Carregar URL" 
 
 Entrar na diretoria `/gerador/servidor/` e correr o comando:
 
@@ -59,7 +59,9 @@ In the `server / server.js` file set the value of the constants:
 - `port`: service port (must match the one indicated in` fetchServer` in the generator)
 - `origin`: address (including port if necessary) of the machine where the Generator is made available (where requests for this service come from)
 
-Run the service using the command
+## Run the service that allow "Upload by URL"
+ 
+Enter in the directory `/gerador/servidor/` and run the command:
 
 ```
 node server.js &
