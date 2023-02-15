@@ -23,7 +23,10 @@ No ficheiro `servidor/server.js` configurar o valor das constantes:
 - `port`: porto do serviço (deve coincidir com o indicado em `fetchServer` no gerador)
 - `origin`: endereço (incluindo porto se for necessário) da máquina onde é disponibilizado o Gerador (de onde vêm os pedidos a este serviço)
 
-Executar o serviço correndo
+Executar o serviço que permite ativar o botão "Carregar URL" 
+
+Entrar na diretoria `/gerador/servidor/` e correr o comando:
+
 ```
 node server.js &
 disown
