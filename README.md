@@ -8,13 +8,13 @@
 
  Gerador da Declaração de Acessibilidade e Usabilidade
 
-## Instalação do Gerador de Declarações de Acessibilidade 
+## Instalar Gerador 
 
-Copiar todos os ficheiros, excepto os que os estão dentro da pasta `servidor`, para o servidor Web que irá servir o Gerador.
+Copiar todos os ficheiros, excepto os que estão dentro da pasta `servidor`, para o servidor Web que irá servir o Gerador.
 
-No ficheiro `js/generator.js` atualizar a variável `fetchServer` para apontar para o endereço onde é disponibilizado o serviço de carregamento de declarações de acessibilidade a partir de um URL.
+No ficheiro `js/generator.js` atualizar a variável `fetchServer` para apontar para o endereço onde é disponibilizado o serviço de carregamento das declarações de acessibilidade a partir de um URL.
 
-## Instalação do serviço de obtenção de declarações de acessibilidade a partir de um URL
+## Instalar serviço "Carregar por URL"
 
 Copiar o ficheiro `servidor/server.js` para o local onde será executado este serviço.
 
@@ -23,7 +23,7 @@ No ficheiro `servidor/server.js` configurar o valor das constantes:
 - `port`: porto do serviço (deve coincidir com o indicado em `fetchServer` no gerador)
 - `origin`: endereço (incluindo porto se for necessário) da máquina onde é disponibilizado o Gerador (de onde vêm os pedidos a este serviço)
 
-## Executar o serviço que permite ativar o botão "Carregar URL" 
+## Executar serviço "Carregar por URL" 
 
 Entrar na diretoria `/gerador/servidor/` e correr o comando:
 
@@ -44,13 +44,13 @@ A primeira linha corre o serviço. A segunda permite manter o serviço a correr 
 
 Generator of Accessibility and Usability Statement
 
-## Installing the Accessibility Statement Generator
+## Install the Accessibility Statement Generator
 
 Copy all the files, except those inside the `server` folder, to the Web server that will serve the Generator.
 
 In the `js / generator.js` file, update the` fetchServer` variable to point to the address where the accessibility statement loading service is available from a URL.
 
-## Installation of the service to obtain the accessibility statement from a URL
+## Install the service "Upload by URL"
 
 Copy the file `server / server.js` to the location where this service will be executed.
 
