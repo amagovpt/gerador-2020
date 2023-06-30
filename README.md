@@ -6,7 +6,7 @@
 
 <abbr title="versão portuguesa">pt-PT</abbr>
 
- Gerador da Declaração de Acessibilidade e Usabilidade
+ Gerador de Declarações de Acessibilidade e Usabilidade
 
 ## Instalar Gerador 
 
