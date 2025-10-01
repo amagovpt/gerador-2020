@@ -12,6 +12,8 @@ versão 2020 contém:
 
  Gerador de Declarações de Acessibilidade e Usabilidade
 
+**NOTA: os autores descontinuaram a presente versão do Gerador e continuaram o desenvolvimento no repositório [gerador-2021](https://github.com/amagovpt/gerador-2021).**
+
 ## 1. Instalar Gerador 
 
 Copiar todos os ficheiros, excepto os que estão dentro da pasta `servidor`, para o servidor Web que irá servir o Gerador.
